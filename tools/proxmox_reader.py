@@ -33,7 +33,7 @@ try:
         client = ProxmoxAPI(
             PROXMOX_HOST,
             port=int(PROXMOX_PORT),
-            user=PROXMOX_TOKEN_ID,
+            user=PROXMOX_USER,
             token_name='automation-agent',
             token_value=PROXMOX_TOKEN_SECRET,
             verify_ssl=False,
