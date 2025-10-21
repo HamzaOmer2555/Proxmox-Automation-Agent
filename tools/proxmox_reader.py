@@ -36,7 +36,7 @@ try:
             PROXMOX_HOST,
             port=int(PROXMOX_PORT),
             user=PROXMOX_TOKEN_ID,  # Pass full token ID (e.g., root@pam!automation-agent)
-            token_name='proxmox-agent',  # This is the token name part
+            # token_name='proxmox-agent',  # This is the token name part
             token_value=PROXMOX_TOKEN_SECRET,  # This is the token secret
             verify_ssl=False,
             timeout=60
